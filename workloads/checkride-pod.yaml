@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
       - name: checkride
-        image: gcr.io/popori-gcct-pj/checkride@sha256:eb197beceb126a18fabc19fd1bb483f066add3bd242b64b2bf0b95a10b9ef040
+        image: gcr.io/popori-gcct-pj/checkride:latest
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 80
