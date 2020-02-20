@@ -1,3 +1,4 @@
+---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -22,7 +23,7 @@ spec:
     spec:
       containers:
       - name: checkride
-        image: gcr.io/popori-gcct-pj/checkride:latest
+        image: gcr.io/popori-gcct-pj/checkride:61c7b75
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 80
